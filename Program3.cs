@@ -19,5 +19,6 @@ public class Program3
         int thirdNumber = int.Parse(Console.ReadLine() ?? "0");
         int result = SumOfThreeNumbers(firstNumber, secondNumber, thirdNumber);
         Console.WriteLine($"The sum of {firstNumber}, {secondNumber}, and {thirdNumber} is: {SumOfThreeNumbers(firstNumber, secondNumber, thirdNumber)}");
+        ConsoleApp1.Readline();
     }
 }
